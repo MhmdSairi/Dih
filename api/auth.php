@@ -68,8 +68,8 @@ function auth() {
     // Jika tidak ada token, atau refresh gagal → login manual
     $loginUrl = $base_url . "/api/auth/login";
     $response = httpPostJson($loginUrl, [
-        "username" => getenv("USERNAME"),
-        "password" => getenv("PASSWORD"),
+        "username" => getenv("MhmdSairi"),
+        "password" => getenv("Sairi131220"),
         "rememberMe" => true
     ]);
 
